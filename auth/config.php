@@ -1,13 +1,8 @@
 <?php
-//  $servername = "localhost";
-//  $username = "root";
-//  $password = "Geosentric2021__";
-//  $dbname = "geosentric";
-
-$servername = "103.27.206.196";
-$username = "geosentr_root";
-$password = "geosentric2021";
-$dbname = "geosentr_21";
+ $servername = "localhost";
+ $username = "root";
+ $password = "";
+ $dbname = "geosentric";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

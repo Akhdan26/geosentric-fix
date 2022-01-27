@@ -1,0 +1,18 @@
+[06-Jul-2021 14:53:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/geosentr/public_html/auth/config.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/geosentr/public_html/auth/config.php on line 21
+[06-Jul-2021 14:55:23 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/geosentr/public_html/auth/config.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/geosentr/public_html/auth/config.php on line 19
+[06-Jul-2021 15:04:17 UTC] PHP Warning:  method_exists() expects exactly 2 parameters, 1 given in /home/geosentr/public_html/auth/config.php on line 12
+[06-Jul-2021 15:04:40 UTC] PHP Warning:  method_exists() expects exactly 2 parameters, 1 given in /home/geosentr/public_html/auth/config.php on line 12
+[06-Jul-2021 15:14:55 UTC] PHP Notice:  Undefined variable: servername in /home/geosentr/public_html/auth/config.php on line 13
+[06-Jul-2021 15:15:39 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/geosentr/public_html/auth/config.php on line 13
+[06-Jul-2021 15:20:32 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'geosentr_root'@'103.27.206.196' to database 'geosentr_21' in /home/geosentr/public_html/auth/config.php on line 13
+[06-Jul-2021 15:21:15 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'geosentr_root'@'103.27.206.196' to database 'geosentr_21' in /home/geosentr/public_html/auth/config.php on line 13
+[06-Jul-2021 15:35:46 UTC] PHP Notice:  Undefined variable: email in /home/geosentr/public_html/auth/config.php on line 14
+[06-Jul-2021 15:35:46 UTC] PHP Notice:  Undefined variable: pass in /home/geosentr/public_html/auth/config.php on line 14
+[06-Jul-2021 15:35:50 UTC] PHP Notice:  Undefined variable: email in /home/geosentr/public_html/auth/config.php on line 14
+[06-Jul-2021 15:35:50 UTC] PHP Notice:  Undefined variable: pass in /home/geosentr/public_html/auth/config.php on line 14
